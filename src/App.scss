@@ -1,0 +1,30 @@
+html,
+body,
+#root,
+.App {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#sunriseClock,
+#sunsetClock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    margin-bottom: 5px;
+  }
+
+  & > span {
+    margin-top: 5px;
+  }
+}
+
+#sunriseClock .react-clock__face {
+  background-color: #41bfed;
+}
+
+#sunsetClock .react-clock__face {
+  background-color: #fb8f62;
+}
